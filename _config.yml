@@ -4,9 +4,9 @@ description: 'Marine microbial Biogeochemistry and Environmental Proteomics' # t
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://proteoceanLab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/MVM-logo-full.svg"
-logo-icon: "/assets/img/branding/MVM-symbol.svg"
-logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
+logo: "/assets/img/branding/HeldLab_logo_light_newcolor.svg"
+logo-icon: "/assets/img/branding/HeldLab_logo_light_newcolor_icon_nobk_lighter.svg" # must be svg
+logo-icon-SEO: "/assets/img/branding/HeldLab_logo_light_newcolor_icon_lighter.png" # must be a non SVG file
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -20,20 +20,20 @@ logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG f
 # the browser is closed or not)
 night_mode: "auto"
 
-logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
+logo-dark: "/assets/img/branding/HeldLab_logo_dark_newcolor.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
-# Author settings
+# PI settings
 author: Noelle Held # add your name
-author-pic: Myself_Neon_grey.jpg
-about-author: Assistant Professor, USC Department of Biological Sciences. 
-
+author-pic: Held_photo.jpg
+about-author: Assistant Professor, USC Department of Biological Sciences, Marine and Environmental Biology Section
+about-author2: Likes a pretty ion chromatogram, oat milk lattes, hot yoga, playing the piano, being at sea
 # Contact links
-email: nheld@usc.edu # Add your Email address
-phone: # Add your Phone number
-website: https://naheld.github.io # Add your website
+email: nheld@usc.edu # Add lab Email address
+phone: # Add lab Phone number
+website: https://naheld.github.com # Add lab website
 #linkedin: amaynez # Add your Linkedin handle
-github: naheld # Add your Github handle
+github: naheld # Add lab Github handle
 twitter: '@proteocean' # Add your Twitter handle
 #bandcamp: armandomaynez # Add your Bandcamp username
 #stackoverflow: stackoverflow # Add your stackoverflow account
@@ -42,7 +42,7 @@ twitter: '@proteocean' # Add your Twitter handle
 #mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Tracker
-#analytics: G-R8SZS2YBZK
+analytics: G-Z13BVKB890
 #fbadmin: ar.maybach
 
 # Paginate
@@ -85,5 +85,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-include: [_pages]
+collections:
+  people:
+    output: true
+
+include: [_pages, _people]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]

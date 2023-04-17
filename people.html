@@ -1,0 +1,72 @@
+---
+layout: home-page
+---
+{% include calculate_relative_base.html %}
+
+<div class="small-wrapper">
+  <div class="about-container">
+    <section class="about-header">
+      <div class="author-image-container">
+        <a href='{{ site.website }}'><img src="{{ relativebase }}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{site.author}}"></a>
+      </div>
+      <h3>{{site.author}}
+
+      <section class="about-body">
+      <ul class="contact-list">
+      {% if site.twitter %}
+        <li class="twitter"><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      {% endif %}
+      {% if site.linkedin %}
+        <li class="linkedin"><a class="linkedin" href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      {% endif %}
+      {% if site.github %}
+        <li class="github"><a class="github" href="https://github.com/{{site.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+      {% endif %}
+      {% if site.email %}
+        <li class="email"><a class="email" href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
+      {% endif %}
+      {% if site.bandcamp %}
+        <li class="bandcamp"><a class="bandcamp" href="https://{{site.bandcamp}}.bandcamp.com" target="_blank"><i class="fa fa-bandcamp" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.stackoverflow %}
+      <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank">
+        <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+      {% endif %}
+      </ul>
+      </section> <!-- End About Body-->
+
+    <p class="subtitle">{{site.about-author}}</p>
+    <p class="subtitle2">{{site.about-author2}}</p>
+    </section>
+
+<ol class="post-card-box">
+  {% for post in paginator.posts %}
+  {% include remove_double_slash.html %}
+  <li>
+    <div class="post-card">
+      <a href="{{ post_url }}" title="{{ post.title }}" class="post-card-image" style="background: url('{{ relativebase }}assets/img/{{ post.img }}') center no-repeat; background-size: cover;">
+      </a>
+      <div class="post-card-body">
+        <p class="post-card-title-and-meta">
+          
+          <a href="{{ post_url }}" class="post-card-link">
+          {{ post.title }}
+          </a>
+          {% include post_meta.html type="post-card-meta" date="none" %}
+        </p>
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+
+
+<section class="about-header">
+      <div class="author-image-container">
+        <a href='{{ site.website }}'><img src="./assets/img/icons/genericperson.png"></a>
+      </div>
+      <h3>Coming soon!</h3>
+      <p class="subtitle"><a href = "./joinus.html">Join us</a></p>
+    </section>
+  </div> <!-- End About Container -->
+</div> <!-- End Small Wrapper -->

@@ -2,6 +2,33 @@
 layout: home-page
 ---
 {% include calculate_relative_base.html %}
+<ol class="post-card-description clearfix">
+    <div class="post-card2">
+      <div class="post-card-video">
+      <video id="background-video" autoplay loop muted>
+        <source src="assets/img/oceanmovie_MOV_AdobeExpress.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="post-card-body2">
+        <p class="post-card-title-and-meta">
+          <a href="about2.html" class="post-card-link">
+            <p style="font-size: 1.2em">Tiny cells, global impact.
+            </p>
+          </a>
+          <a href = "ourperspective.html" class="post-card-link">
+            <p style="font-size: 0.9em">
+            We study the inner lives of marine microbes and how they<br>contribute to the health of the ocean. 
+            </p>
+          </a>
+          <a href = "methodsweuse.html" class="post-card-link">
+            <p style="font-size:0.9em"><a href = "methods.html" class="post-card-link">
+            Our specialities include environmental proteomics, systems biology, <br>quantitative biology, and ocean biogeochemistry. </p>
+          </a>
+        </p>
+      </div>
+    </div>
+</ol>
+
 
 <ol class="post-card-box clearfix">
   {% for post in paginator.posts %}

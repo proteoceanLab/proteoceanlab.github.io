@@ -1,0 +1,82 @@
+---
+layout: menu-page
+title: About
+permalink: about:output_ext
+---
+
+{% include escape-404.html %}
+
+<div class="small-wrapper">
+  <div class="about-container">
+    <section class="about-header">
+
+      <div class="author-image-container">
+        <a href='https://naheld.github.io/markdown-cv/'><img src="{{ relativebase }}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{site.author}}"></a>
+      </div>
+      <h3>{{site.author}}</h3>
+      <section class="about-body">
+      <ul class="contact-list">
+      {% if site.twitter %}
+        <li class="twitter"><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      {% endif %}
+      {% if site.linkedin %}
+        <li class="linkedin"><a class="linkedin" href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      {% endif %}
+      {% if site.github %}
+        <li class="github"><a class="github" href="https://github.com/{{site.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+      {% endif %}
+      {% if site.email %}
+        <li class="email"><a class="email" href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
+      {% endif %}
+      {% if site.bandcamp %}
+        <li class="bandcamp"><a class="bandcamp" href="https://{{site.bandcamp}}.bandcamp.com" target="_blank"><i class="fa fa-bandcamp" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.stackoverflow %}
+      <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank">
+        <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+      {% endif %}
+      </ul>
+      <p class="subtitle">{{site.about-author}}</p>
+      <p class="subtitle2">{{site.about-author2}}</p>
+      </section>
+    </section>
+  </div>
+
+  {% for person in site.people %}
+  <div class = 'people-column'>
+        <section class="about-header">
+          <div class="author-image-container">
+            <a href={{person.link}}><img src="{{ relativebase }}/assets/img/{% if person.image %}{{ person.image }}{% endif %}"></a>
+          </div>
+          <h3>{{person.name}}
+          </h3>
+
+          <section class="about-body">
+          <ul class="contact-list">
+          {% if person.twitter %}
+            <li class="twitter"><a class="twitter" href="https://twitter.com/{{person.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          {% endif %}
+          {% if person.linkedin %}
+            <li class="linkedin"><a class="linkedin" href="https://in.linkedin.com/in/{{person.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          {% endif %}
+          {% if person.github %}
+            <li class="github"><a class="github" href="https://github.com/{{person.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+          {% endif %}
+          {% if person.email %}
+            <li class="email"><a class="email" href="mailto:{{person.email}}"><i class="fa fa-envelope-o"></i></a></li>
+          {% endif %}
+          {% if person.stackoverflow %}
+          <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{person.stackoverflow}}" target="_blank">
+            <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+          {% endif %}
+          </ul>
+          </section>
+
+          <p class="subtitle">{{person.position}}</p>
+          <p class="subtitle2">{{person.about}}</p>
+        </section>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</div>

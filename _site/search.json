@@ -1,0 +1,63 @@
+[
+  
+    {
+      "title"       : "The basis of nutrient colimitation",
+      "category"    : "current project",
+      "tags"        : "colimitation, biogeochemistry, systems biology, quantitative biology, current",
+      "url"         : "./basiscolim.html",
+      "date"        : "2022-11-11 00:00:00 +0100",
+      "description" : "What is the intuition behind nutrient colimitation?",
+      "content"     : "Nutrient availability is a key control on the growth and activity of microbes. Usually nutrient limitations are considered individually, but this ignores the reality of nature: often, many nutrients are simultaneously deplete.Our understanding of the phenomenon of microbial growth when multiple nutrients are dilute is limited by lack of a unifed framework. Together with our collaborators at Rutgers University and ETH Zurich, we are working to fill that gap.Further work will focus on the molecular basis and biogeochemical implications of nutrient colimitation.The project uses mathematical modelling, concepts in theoretical biology, physiology and molecular analysis."
+    } ,
+  
+    {
+      "title"       : "Protein modification in marine microbes",
+      "category"    : "current project",
+      "tags"        : "proteomics, protein modifications, systems biology, quantitative biology, biomarkers, current",
+      "url"         : "./LiPMS.html",
+      "date"        : "2022-11-11 00:00:00 +0100",
+      "description" : "What is the intuition behind nutrient colimitation?",
+      "content"     : "Proteins are the literal molecular machines that perform biochemical transformations within cells and connect the inner life of cells to the external environment. Protein activity, particularly of key enzymes such as the photosynthetic enzymes and nitrogenase, is an important biogeochemical parameter.Protein activity can be modulated by changes in protein concentration (as we can measure through proteomics), but also through changes in protein 3D shape. Protein 3D shape can change dynamically over time due to protein-metabolite interactions, protein-protein interactions, and post translational modifications.We are developing conceptually simple strategies to measure protein conformational changes in marine microbes. We work with collaborators at ETH-Zurich to acheive this.The project uses LC-MS based proteomics, statistical analyses, physiology, and cell culturing."
+    } ,
+  
+    {
+      "title"       : "Dynamic diel proteome of &lt;i&gt; Trichodesmium &lt;/i&gt;",
+      "category"    : "publication",
+      "tags"        : "biogeochemistry, Trichodesmium, proteomics, heterogeneity, quantitative biology, publication",
+      "url"         : "./Tricho-diel.html",
+      "date"        : "2022-01-10 00:00:00 +0100",
+      "description" : "Why does <i>Trichodesmium</i> fix nitrogen during the day?",
+      "content"     : "Trichodesmium is unique among nitrogen fixers. It fixes nitrogen and carbon simultaneously. This is risky behavior - why would Trichodesmium do this?The project used cell culturing, physiology, label-free protoemics, quantitative proteomics, GC-MS, mathematical modeling and network analysis.This work was published in 2022. There is a much larger body of literature/debate about how Trichodesmium manages nitrogen fixation and carbon fixation simultaneously during the photoperiod. You can review snippets of this debate here. Clearly there is more to understand about Trichodesmium’s molecular physiology, and we plan to continue investigating!"
+    } ,
+  
+    {
+      "title"       : "&lt;i&gt;Trichodesmium&lt;/i&gt; colonies as individuals",
+      "category"    : "publication",
+      "tags"        : "biogeochemistry, Trichodesmium, proteomics, systems biology, quantitative biology, publication",
+      "url"         : "./Tricho-dust.html",
+      "date"        : "2021-07-13 00:00:00 +0200",
+      "description" : "How is morphological heterogeneity reflected in molecular profiles of colonies?",
+      "content"     : "Under the microscope, Trichodesmium colonies vary a lot! How does is this reflected in their molecular profiles?The project used metaproteomics of single colonies, microscopy, and synchrotron-based μ-XRF to look into this question.This work was published in 2021. We’re following up on individual heterogeneity in marine microbes using microfluidics and microscopy techniques, and using what we learned in this project to improve techniques for metaproteomics analyses of limited-biomass samples. A look at all the colonies we examined in this study. From Figure S1 of the publication."
+    } ,
+  
+    {
+      "title"       : "Colimitation in &lt;i&gt;Trichodesmium&lt;/i&gt;",
+      "category"    : "publication",
+      "tags"        : "biogeochemistry, Trichodesmium, proteomics, biomarkers, colimitation, publication",
+      "url"         : "./TrichoFeP.html",
+      "date"        : "2021-04-19 00:00:00 +0200",
+      "description" : "Which nutrient limits the growth of <i>Trichodesmium</i> in nature?",
+      "content"     : "Trichodesmium, a keystone marine microbe, can fix a theoretically unlimited supply of carbon and nitrogen; therefore the next most-limiting nutrients Fe and P seem to limit its growth and activity. Which nutrient limits Trichodesmium in nature?The project used metaproteomics, quantitative proteomics, mathematical modelling, and network analysis.This work was published in 2020. The transcript abundances from some of the same transects reflect different patterns - an interesting comparison that can be found here (Cerdan-Garcia et al., 2021). I also recommend this nice study considering similar trade offs in nutrient acquisition by phytoplankton here (McCain et al., 2021."
+    } ,
+  
+    {
+      "title"       : "Two component systems as biomarkers",
+      "category"    : "publication",
+      "tags"        : "biogeochemistry, proteomics, biomarkers, cellular decision-making, publication",
+      "url"         : "./TCS.html",
+      "date"        : "2019-01-01 00:00:00 +0100",
+      "description" : "How do marine bacteria sense the world around them?",
+      "content"     : "Two component sensors are the biochemical senses of the cell. It is the most common form of molecular bacterial sensing. How do these systems work in marine bacteria and what is their role in biogeochemical cycles?The project used genome analysis, metaproteomics, and statistical surveys to look into this question.This work was published in 2019. No current follow up projects are started, but the concept remains of interest!"
+    } 
+  
+]
