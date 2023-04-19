@@ -543,6 +543,7 @@ svg {
   margin: 0.75em auto 0.75em;
   position: relative;
 }
+
 ::-moz-selection {
   background: rgba(49, 30, 62, 0.7);
   color: white;
@@ -883,6 +884,7 @@ svg.menu-icon-house {
 
 .post-card-body {
   position: absolute;
+  top: 35%;
   left: 5%;
   bottom: 5%;
   background-color: #00000099;
@@ -893,9 +895,10 @@ svg.menu-icon-house {
 .post-card-body2 {
   position: absolute;
   left: 0%;
-  top: 20%;
+  top: 30%;
   background-color: #00000099;
   padding-left: 0px;
+  padding-bottom: 1px;
   width: 100%;
   text-align: center;
   font-size: 1.2em;
@@ -903,10 +906,24 @@ svg.menu-icon-house {
   transform: translateY(-50%);
 
 }
+
+.post-card-body3 {
+  background-color: #00000099;
+
+}
 .post-card-tags{
   font-size: 10px
 }
 
+.bigheader {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.smallheader {
+  font-size: 1.1em;
+  text-align: center;
+}
 .tag {
   text-decoration: none;
   text-transform: uppercase;
@@ -936,11 +953,15 @@ svg.menu-icon-house {
 
 /* = = = = = = = = = = Post-Card (homepage) = = = = = = = = = = */
 .post-card-description {
-  margin: 50px 0 15px;
-  padding: 0;
+  margin: 50px 0 20px;
+  padding: 1px;
   width: 100vw;
-  height: 50vh;
-  bottom: 20%;
+  height: auto;
+  overflow:auto
+}
+
+.noCollapse {
+  padding: 0.05px;
 }
 
 /* = = = = = = = = = = Pagination  = = = = = = = = = = */
