@@ -1,7 +1,7 @@
 ---
 name: Rachael Peng
 category: people
-position: "PhD Student, MEB"
+position: "PhD Student, Marine & Environmental Biology"
 about: "likes things"
 twitter: '@twitterhandle'
 linkedin: 'linktolinkedin'
