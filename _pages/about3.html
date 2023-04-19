@@ -41,42 +41,45 @@ permalink: about:output_ext
       </section>
     </section>
   </div>
-
-  {% for person in site.people %}
-  <div class = 'people-column'>
-        <section class="about-header">
-          <div class="author-image-container">
-            <a href={{person.link}}><img src="{{ relativebase }}/assets/img/{% if person.image %}{{ person.image }}{% endif %}"></a>
-          </div>
-          <h3>{{person.name}}
-          </h3>
-
-          <section class="about-body">
-          <ul class="contact-list">
-          {% if person.twitter %}
-            <li class="twitter"><a class="twitter" href="https://twitter.com/{{person.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          {% endif %}
-          {% if person.linkedin %}
-            <li class="linkedin"><a class="linkedin" href="https://in.linkedin.com/in/{{person.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          {% endif %}
-          {% if person.github %}
-            <li class="github"><a class="github" href="https://github.com/{{person.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
-          {% endif %}
-          {% if person.email %}
-            <li class="email"><a class="email" href="mailto:{{person.email}}"><i class="fa fa-envelope-o"></i></a></li>
-          {% endif %}
-          {% if person.stackoverflow %}
-          <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{person.stackoverflow}}" target="_blank">
-            <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
-          {% endif %}
-          </ul>
-          </section>
-
-          <p class="subtitle">{{person.position}}</p>
-          <p class="subtitle2">{{person.about}}</p>
-        </section>
-      </div>
-    </div>
-  {% endfor %}
-  </div>
 </div>
+
+
+<ol class="post-card-box clearfix">
+  {% for person in site.people %}
+  <li>
+    <div class="about-header">
+      <div class="author-image-container">
+         <a href={{person.link}}><img src="{{ relativebase }}/assets/img/{% if person.image %}{{ person.image }}{% endif %}"></a>
+      </div>
+      <h3>
+        {{person.name}}
+      </h3>
+
+      <!--<section class="about-body">
+        <ul class="contact-list">
+          {% if person.twitter %}
+          <li class="twitter"><a class="twitter" href="https://twitter.com/{{person.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        {% endif %}
+        {% if person.linkedin %}
+          <li class="linkedin"><a class="linkedin" href="https://in.linkedin.com/in/{{person.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        {% endif %}
+        {% if person.github %}
+          <li class="github"><a class="github" href="https://github.com/{{person.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+        {% endif %}
+        {% if person.email %}
+          <li class="email"><a class="email" href="mailto:{{person.email}}"><i class="fa fa-envelope-o"></i></a></li>
+        {% endif %}
+        {% if person.stackoverflow %}
+        <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{person.stackoverflow}}" target="_blank">
+          <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+        {% endif %}
+        </ul>
+      </section>-->
+
+      <p class="subtitle">{{person.position}}</p>
+      <p class="subtitle2">{{person.about}}</p>
+
+    </div>
+  </li>
+  {% endfor %}
+</ol>

@@ -1849,6 +1849,18 @@ img + small, img + br + small {
   text-align: center;
 }
 
+.about-header2 {
+  position: relative;
+  text-align: center;
+}
+
+.about-header2 li {
+  position: relative;
+  list-style: none;
+  float: left;
+  width: 50%;
+}
+
 
 .about-header .author-image-container {
   width: 150px;
