@@ -583,8 +583,8 @@ svg {
           align-items: center;
 }
 .main-header .logo {
-  width: 75%;
-  height: 50%;
+  width: 65%;
+  height: 30%;
   position: relative;
   text-align: center;
   color:var(--main);
@@ -916,12 +916,12 @@ svg.menu-icon-house {
 }
 
 .bigheader {
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-align: center;
 }
 
 .smallheader {
-  font-size: 1.1em;
+  font-size: 0.9em;
   text-align: center;
 }
 .tag {
