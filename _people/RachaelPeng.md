@@ -4,10 +4,10 @@ category: people
 position: "PhD Student, Marine & Environmental Biology"
 about: "likes things"
 twitter: '@twitterhandle'
-linkedin: 'linktolinkedin'
+linkedin: 'https://www.linkedin.com/in/rachael-lin-peng/'
 github: 'linktolinkedin'
-email: 'person@usc.edu'
-stackedoverflow: 'linktostackedoverflow'
+email: 'rlpeng@usc.edu'
+stackedoverflow: 
 image: 'people/Rachaelpeng.png'
 genericimage: 'people/genericperson.png'
 link: 'people/RachaelPeng.html'
