@@ -50,7 +50,7 @@ layout: menu-page
           </section>
 
 <!-- Fill in details below, as many paragraphs as you'd like -->
-<p>Rachael's projects </p>
+<p>Rachael's Projects - placeholder </p>
 <p>Fun facts about Rachael.</p>
 
 <!-- No need to change anything here -->
