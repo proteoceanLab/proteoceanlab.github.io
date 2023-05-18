@@ -2,10 +2,10 @@
 name: Rachael Peng
 category: people
 position: "PhD Student, Marine & Environmental Biology"
-about: "likes things"
-twitter: '@twitterhandle'
+about: "likes playing the piano, taking walks, and all things Zelda.  "
+twitter: 
 linkedin: 'https://www.linkedin.com/in/rachael-lin-peng/'
-github: 'linktolinkedin'
+github: 
 email: 'rlpeng@usc.edu'
 stackedoverflow: 
 image: 'people/Rachaelpeng.png'
