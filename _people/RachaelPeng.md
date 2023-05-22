@@ -50,7 +50,7 @@ layout: menu-page
           </section>
 
 <!-- Fill in details below, as many paragraphs as you'd like -->
-<p>I am a graduate student under in the Marine and Environmental Biology program. I am fascinated by the intricate interplay between microbes and their surrounding environment: how they are affected by ever-changing geochemical fluxes and through their metabolism, inadvertently drive the elemental cycles of our world. </p>
+<p>I am a graduate student under in the Marine and Environmental Biology program. I am fascinated by the intricate interplay between microbes and their surrounding environment— how they are affected by ever-changing geochemical fluxes and through their metabolism, inadvertently drive the elemental cycles of our world. </p>
 <p>I graduated from UC Berkeley and worked under Dr. John D. Coates (UC Berkeley, Department of Plant and Microbial Biology) studying microbial iodine respiration and its relevant biochemistry. In my free time, I like to spend time lazing around my house, surveying different grocery stores, and more recently, playing Zelda: Tears of the Kingdom on Nintendo Switch.  </p>
 
 <!-- No need to change anything here -->
