@@ -8,7 +8,7 @@ linkedin: 'https://www.linkedin.com/in/rachael-lin-peng/'
 github: 
 email: 'rlpeng@usc.edu'
 stackedoverflow: 
-image: 'people/Rachaelpeng.png'
+image: 'people/RachaelPeng.png'
 genericimage: 'people/genericperson.png'
 link: 'people/RachaelPeng.html'
 layout: menu-page
