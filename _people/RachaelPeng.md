@@ -2,13 +2,13 @@
 name: Rachael Peng
 category: people
 position: "PhD Student, Marine & Environmental Biology"
-about: "likes things"
-twitter: '@twitterhandle'
-linkedin: 'linktolinkedin'
-github: 'linktolinkedin'
-email: 'person@usc.edu'
-stackedoverflow: 'linktostackedoverflow'
-image: 'people/Rachaelpeng.png'
+about: "likes playing the piano, taking walks, and all things Zelda.  "
+twitter: 
+linkedin: 'https://www.linkedin.com/in/rachael-lin-peng/'
+github: 
+email: 'rlpeng@usc.edu'
+stackedoverflow: 
+image: 'people/RachaelPeng.png'
 genericimage: 'people/genericperson.png'
 link: 'people/RachaelPeng.html'
 layout: menu-page
@@ -50,8 +50,8 @@ layout: menu-page
           </section>
 
 <!-- Fill in details below, as many paragraphs as you'd like -->
-<p>Rachael's projects </p>
-<p>Fun facts about Rachael.</p>
+<p>I am a graduate student under in the Marine and Environmental Biology program. I am fascinated by the intricate interplay between microbes and their surrounding environment— how they are affected by ever-changing geochemical fluxes and through their metabolism, inadvertently drive the elemental cycles of our world. </p>
+<p>I graduated from UC Berkeley and worked under Dr. John D. Coates (UC Berkeley, Department of Plant and Microbial Biology) studying microbial iodine respiration and its relevant biochemistry. In my free time, I like to spend time lazing around my house, surveying different grocery stores, and more recently, playing Zelda: Tears of the Kingdom on Nintendo Switch.  </p>
 
 <!-- No need to change anything here -->
 </section>
