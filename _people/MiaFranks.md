@@ -2,12 +2,12 @@
 name: Mia Franks
 category: people
 position: "PhD Student, Ocean Sciences"
-about: "likes things"
-twitter: '@twitterhandle'
-linkedin: 'linktolinkedin'
-github: 'linktolinkedin'
-email: 'person@usc.edu'
-stackedoverflow: 'linktostackedoverflow'
+about: "likes cooking, naps, spending time with friends"
+twitter: 
+linkedin: 'www.linkedin.com/in/mia-franks-5abb48276'
+github:
+email: 'mgfranks@usc.edu'
+stackedoverflow: 
 image: 'people/MiaFranks.png'
 genericimage: 'people/genericperson.png'
 link: 'people/MiaFranks.html'
@@ -50,8 +50,8 @@ layout: menu-page
           </section>
 
 <!-- Fill in details below, as many paragraphs as you'd like -->
-<p>Mia's projects </p>
-<p>Fun facts about Mia.</p>
+<p>Under Dr. Held, I plan to study nutrient co-limitation. My research prior to joining the lab has spanned paleoclimatolgy, biochemistry, and ocean technology. </p>
+<p>I grew up in Tucson, Arizona in the Sonoran Desert, where I nurtured my love for nature. Some of my favorite activities are cooking and eating food (especially Korean food), listening to music, and rowing. </p>
 
 <!-- No need to change anything here -->
 </section>
