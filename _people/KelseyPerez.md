@@ -8,9 +8,9 @@ linkedin: 'www.linkedin.com/in/kelsey-perez-7b2711268'
 github:
 email: 'klperez@usc.edu'
 stackedoverflow: 
-image: 'people/MiaFranks.png'
+image: 'people/KelseyPerez.png'
 genericimage: 'people/genericperson.png'
-link: 'people/MiaFranks.html'
+link: 'people/KelseyPerez.html'
 layout: menu-page
 ---
 <!-- No need to change anything here -->
