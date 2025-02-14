@@ -1,11 +1,12 @@
----
+![palisades sampling](https://github.com/user-attachments/assets/a18c6c4d-c840-4daf-acf5-dc6a003af497)---
 layout: post
 read_time: true
 show_date: true
 title: "Effects of wildfires on marine microbial communities"
 date: 2025-02-14
 # try setting this to update to current date
-img: posts/20221111/colimbasis.png
+img: posts/20250215/palisades_sampling.jpeg
+
 tags: [current, biogeochemistry, colimitation, sustainability]
 category: current project
 description: "How do marine microbial communities respond to nutrient inputs from natural disasters?"
