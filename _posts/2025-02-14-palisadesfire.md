@@ -4,7 +4,6 @@ read_time: true
 show_date: true
 title: "Effects of wildfires on marine microbial communities"
 date: 2025-02-14
-# try setting this to update to current date
 img: posts/20250215/palisades_sampling.png
 
 tags: [current, biogeochemistry, colimitation, sustainability]
