@@ -1,12 +1,11 @@
-![palisades sampling](https://github.com/user-attachments/assets/a18c6c4d-c840-4daf-acf5-dc6a003af497)---
+---
 layout: post
 read_time: true
 show_date: true
 title: "Effects of wildfires on marine microbial communities"
 date: 2025-02-14
 img: posts/20250215/palisades_sampling.png
-
-tags: [current, biogeochemistry, colimitation, sustainability]
+tags: [current, biogeochemistry, proteomics, sustainability]
 category: current project
 description: "How do marine microbial communities respond to nutrient inputs from natural disasters?"
 ---
