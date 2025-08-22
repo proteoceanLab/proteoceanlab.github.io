@@ -51,6 +51,10 @@ layout: menu-page
 
 <!-- Fill in details below, as many paragraphs as you'd like -->
 
+<p> I'm a graduate student in the Marine and Environmental Biology program. I'm fascinated by microbes' ability to thrive in dynamic environments and adapt to complex challenges, and I'm interested in studying how microbial interactions enable survival, shape ecosystems, and drive biogeochemical cycling. As an undergrad at the University of Chicago, I completed my thesis investigating diel dynamics and spatial gradients that shape green sulfur bacteria blooms. I then worked as a research technician at UC Santa Barbara studying spatial structuring and the biofilm matrix in "pink berry" environmental biofilms. </p>
+
+<p> I grew up in Holland, Michigan, near Lake Michigan, where I spent a lot of time by the water. In my free time, I enjoy taking film photos, making pottery, going to concerts and movies, and searching for sea glass at the beach. </p>
+
 <!-- No need to change anything here -->
 </section>
 </div>
