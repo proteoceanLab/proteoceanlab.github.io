@@ -8,7 +8,7 @@ linkedin: 'www.linkedin.com/in/mia-franks-5abb48276'
 github:
 email: 'mgfranks@usc.edu'
 stackedoverflow: 
-image: 'people/MiaFranks.png'
+image: 'people/MiaFranksSPOT.png'
 genericimage: 'people/genericperson.png'
 link: 'people/MiaFranks.html'
 layout: menu-page
