@@ -1,7 +1,7 @@
 ---
 name: Mia Franks
 category: people
-position: "PhD Student, Ocean Sciences"
+position: "PhD Candidate, Ocean Sciences"
 about: "likes cooking, naps, spending time with friends"
 twitter: 
 linkedin: 'www.linkedin.com/in/mia-franks-5abb48276'
@@ -50,8 +50,8 @@ layout: menu-page
           </section>
 
 <!-- Fill in details below, as many paragraphs as you'd like -->
-<p>Under Dr. Held, I plan to study nutrient co-limitation. My research prior to joining the lab has spanned paleoclimatolgy, biochemistry, and ocean technology. </p>
-<p>I grew up in Tucson, Arizona in the Sonoran Desert, where I nurtured my love for nature. Some of my favorite activities are cooking and eating food (especially Korean food), listening to music, and rowing. </p>
+<p>Under I lead our Post-Palisades Fire ocean monitoring project. We study changes in ocean biogeochemistry following the fires in 2025. I also research nutrient co-limitation at the San Pedro Ocean Time Series. My research prior to joining the lab has spanned paleoclimatolgy, biochemistry, and ocean technology. </p>
+<p>I grew up in Tucson, Arizona in the Sonoran Desert, where I nurtured my love for nature. Some of my favorite activities are cooking, trying good food around LA, and listening to music. </p>
 
 <!-- No need to change anything here -->
 </section>
